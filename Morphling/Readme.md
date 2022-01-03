@@ -1,4 +1,4 @@
-## 논문 파일
+## 논문
 
 [Morphling: Fast, Near-Optimal Auto-Configuration for Cloud-Native Model Serving](http://home.cse.ust.hk/~weiwa/papers/morphling-socc21.pdf)
 
