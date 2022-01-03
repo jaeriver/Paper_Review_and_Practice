@@ -297,33 +297,25 @@ Morphling의 높은 효율성은 메타 모델을 새로운 추론 서비스에 
 
 ## 참조
 
-- 웹사이트
-    
+- 웹사이트 <br/>
     [https://kubedl.io/docs/prologue/introduction/](https://kubedl.io/docs/prologue/introduction/)
-    
     [https://kakaobrain.com/blog/106](https://kakaobrain.com/blog/106)
-    
     [https://engineering-ladder.tistory.com/95](https://engineering-ladder.tistory.com/95)
-    
     [https://velog.io/@sjinu/Few-Shot-Learning](https://velog.io/@sjinu/Few-Shot-Learning)
     
-- 깃헙
-    
+- 깃헙 <br/>
     [https://github.com/kubedl-io/morphling](https://github.com/kubedl-io/morphling)
-    
-
+   
 ### Model-agnostic meta-learning for fast adaptation of deep networks.
     
-- 고려대 랩실
+- 고려대 랩실 <br/>
 [http://dmqm.korea.ac.kr/activity/seminar/265](http://dmqm.korea.ac.kr/activity/seminar/265)
     
-    세미나 참고 자료
-    
-    [0719세미나_목충협.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/67ab5712-2520-4b88-b0b6-b7129a969124/0719세미나_목충협.pdf)
+- 세미나 참고 자료 <br/>
+[0719세미나_목충협.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/67ab5712-2520-4b88-b0b6-b7129a969124/0719세미나_목충협.pdf)
     
 
 ### A tutorial on Bayesian optimization.
 
-- 논문
-    
-    [A Tutorial on Bayesian Optimization.pdf](https://arxiv.org/pdf/1807.02811.pdf)
+- 논문 <br/>
+  [A Tutorial on Bayesian Optimization.pdf](https://arxiv.org/pdf/1807.02811.pdf)
