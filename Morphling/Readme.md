@@ -1,6 +1,6 @@
 ## 논문 파일
 
-[morphling-socc21.pdf](http://home.cse.ust.hk/~weiwa/papers/morphling-socc21.pdf)
+[Morphling: Fast, Near-Optimal Auto-Configuration for Cloud-Native Model Serving](http://home.cse.ust.hk/~weiwa/papers/morphling-socc21.pdf)
 
 ## 필요한 사전 지식
 
