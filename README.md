@@ -6,3 +6,4 @@
 - Morphling: Fast, Near-Optimal Auto-Configuration for Cloud-Native Model Serving
 - SLO-Aware Inference Scheduler for Heterogeneous Processors in Edge Platforms
 ### 완료
+- SLA-aware Workload Scheduling Using Hybrid Cloud Services
