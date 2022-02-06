@@ -7,3 +7,4 @@
 - SLO-Aware Inference Scheduler for Heterogeneous Processors in Edge Platforms
 ### 완료
 - SLA-aware Workload Scheduling Using Hybrid Cloud Services
+- BATCH: Machine Learning Inference Serving on Serverless Platforms with Adaptive Batching
