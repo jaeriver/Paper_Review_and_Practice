@@ -18,7 +18,7 @@
 
 ### 로드 밸런싱 구조 전반적인 이해
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1ed16e2b-e12a-45d6-8d0f-8d4a491a63f6/Untitled.png)
+<img src="assets/figure1" />
 
 - 워크로드 특성에 따라서 ML instances, Serverless instances에 대해 선택
 - 특성화된 워크로드의 데이터를 사용하여 몇개의 요청수까지 VM 인스턴스에서 사용할 수 있는지 이해하는 과정을 거침
@@ -33,7 +33,7 @@
 
 ### On-premise 워크로드 특성
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f62ee658-f2b7-4ef8-9be7-a17daf50615b/Untitled.png)
+<img src="assets/figure2" />
 
 - 하나의 요청을 처리할 경우, cores 2 → 4 로 늘렸을 때 상당한 성능 증가가 일어남
 나머지의 경우 코어를 늘려서 응답 시간이 향상되지 않음
@@ -46,16 +46,16 @@
 
 ### ML 인스턴스와 서버리스 인스턴스 스케줄링
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/77992010-c973-4f5b-9884-69322b2c70e7/Untitled.png)
+<img src="assets/figure3" />
 
 - Figure3은 bursty한 워크로드 샘플을 나타냄, 요청 수는 5 ~ 20 까지이며 SLA에 정의된 최대 요청 처리 시간은 200ms임
 - Figure2에서의 정보를 이용하여 ml.c5.large(2 cores)에 논문 저자의 추천시스템 모델을 배포함, 해당 인스턴스는 200ms 안에 5개의 동시 요청 수를 처리할 수 있음
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2a008513-13e8-4fa1-a499-70fcd455549e/Untitled.png)
+<img src="assets/figure4" />
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ec0cddf5-2122-4d4c-b567-a226199ffaa0/Untitled.png)
+<img src="assets/figure5" />
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/56bac486-55e0-4924-94a9-1582a014a2b3/Untitled.png)
+<img src="assets/figure6" />
 
 - Figure4는 서버리스 인스턴스 없이 Figure3의 워크로드를 처리한 경우의 응답 처리 시간을 나타냄, SLA에 정의된 200ms를 넘어 상당한 위반률을 기록함
 - Figure5는 서버리스 인스턴스를 저자의 로드밸런싱을 이용하여 추가 했을 경우의 응답 처리 시간을나탄냄, 동시 요청 수가 5를 넘는다면 나머지 처리를 람다에서 처리하는 방식임
