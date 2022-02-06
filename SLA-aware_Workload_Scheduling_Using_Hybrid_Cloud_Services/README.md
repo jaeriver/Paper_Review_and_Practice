@@ -18,7 +18,7 @@
 
 ### 로드 밸런싱 구조 전반적인 이해
 
-<img src="assets/figure1" />
+<img src="assets/figure1.png" width="600" />
 
 - 워크로드 특성에 따라서 ML instances, Serverless instances에 대해 선택
 - 특성화된 워크로드의 데이터를 사용하여 몇개의 요청수까지 VM 인스턴스에서 사용할 수 있는지 이해하는 과정을 거침
@@ -33,7 +33,7 @@
 
 ### On-premise 워크로드 특성
 
-<img src="assets/figure2" />
+<img src="assets/figure2.png" width="600" />
 
 - 하나의 요청을 처리할 경우, cores 2 → 4 로 늘렸을 때 상당한 성능 증가가 일어남
 나머지의 경우 코어를 늘려서 응답 시간이 향상되지 않음
@@ -46,16 +46,12 @@
 
 ### ML 인스턴스와 서버리스 인스턴스 스케줄링
 
-<img src="assets/figure3" />
+<img src="assets/figure3.png" width="600" />
 
 - Figure3은 bursty한 워크로드 샘플을 나타냄, 요청 수는 5 ~ 20 까지이며 SLA에 정의된 최대 요청 처리 시간은 200ms임
 - Figure2에서의 정보를 이용하여 ml.c5.large(2 cores)에 논문 저자의 추천시스템 모델을 배포함, 해당 인스턴스는 200ms 안에 5개의 동시 요청 수를 처리할 수 있음
 
-<img src="assets/figure4" />
-
-<img src="assets/figure5" />
-
-<img src="assets/figure6" />
+<img src="assets/figure4.png" width="300" /> <img src="assets/figure5.png" width="300" /> <img src="assets/figure6.png" width="300" />
 
 - Figure4는 서버리스 인스턴스 없이 Figure3의 워크로드를 처리한 경우의 응답 처리 시간을 나타냄, SLA에 정의된 200ms를 넘어 상당한 위반률을 기록함
 - Figure5는 서버리스 인스턴스를 저자의 로드밸런싱을 이용하여 추가 했을 경우의 응답 처리 시간을나탄냄, 동시 요청 수가 5를 넘는다면 나머지 처리를 람다에서 처리하는 방식임
