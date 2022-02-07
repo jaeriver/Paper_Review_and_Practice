@@ -30,7 +30,8 @@
 - On-premise
     - Sagemaker Jupyter notebook
     - Intel Xeonn 1359v2@2.45 GHz, 28 cores, 256GB memory
-
+- Serverless
+    - AWS Lambda
 ### On-premise 워크로드 특성
 
 <img src="assets/figure2.png" width="600" />
